@@ -10,7 +10,6 @@ const style = {
     pStyle: {
         display: 'flex',
         fontSize: '18px',
-        color: '#323031',
         padding: '10px',
         margin: '10px',
     },

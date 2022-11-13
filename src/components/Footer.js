@@ -5,7 +5,7 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         position: 'absolute',
-        bottom: -500,
+        bottom: -700,
         width: '100%',
         background: '#323031',
         justifyContent: 'center',

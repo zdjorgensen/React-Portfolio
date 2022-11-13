@@ -15,7 +15,7 @@ body {
 }
 
 p {
-  color: white;
+  color: #323031;
 }
 
 a, ul {
@@ -25,7 +25,7 @@ a, ul {
   color: var(--text-color);
 }
 
-a:hover{
+a:hover {
   color: #7F7979;
 }
 
