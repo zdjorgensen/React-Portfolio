@@ -1,17 +1,11 @@
 import React from 'react';
-
-const styles = {
-    headerStyle: {
-        background: '#323031',
-        padding: '10px ',
-        fontSize: '20px',
-    }
-};
+import '../styles/Header.css';
 
 function Header() {
     return (
-        <header style={styles.headerStyle} >
+        <header className="header">
             <h1> Zachry Jorgensen </h1>
+            
         </header>
     )
 }

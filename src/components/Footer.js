@@ -5,7 +5,7 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         position: 'absolute',
-        bottom: -700,
+        bottom: -300,
         width: '100%',
         background: '#323031',
         justifyContent: 'center',
@@ -21,7 +21,6 @@ function Footer() {
             <a href="https://github.com/zdjorgensen" target="blank"> GitHub </a>
             <a href="https://www.linkedin.com/in/zachry-jorgensen-23b33a20b/" target="blank"> Linkedin </a>
             <a href="https://twitter.com/Trydent97" target="blank"> Twitter </a>
-            
         </footer>
     )
 }

@@ -1,7 +1,7 @@
 :root {
   --main-color: #C1BDB3;
   --accent-color: #323031;
-  --text-color: #98c0c2;
+  --text-color: #adb5bd;
 }
 
 * {
@@ -26,9 +26,10 @@ a, ul {
 }
 
 a:hover {
-  color: #7F7979;
+  color: #5F5B6B;
 }
 
 h1 {
   color: var(--text-color);
 }
+
