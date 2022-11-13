@@ -2,7 +2,9 @@ import React from 'react';
 
 const styles = {
     headerStyle: {
-        background: '#5F5B6B',
+        background: '#323031',
+        padding: '10px ',
+        fontSize: '20px',
     }
 };
 

@@ -1,3 +1,9 @@
+:root {
+  --main-color: #C1BDB3;
+  --accent-color: #323031;
+  --text-color: #98c0c2;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,18 +11,24 @@
 }
 
 body {
-  background-color: #323031;
+  background-color: var(--main-color);
 }
 
 p {
   color: white;
 }
 
+a, ul {
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  color: var(--text-color);
+}
+
 a:hover{
-  color: blue;
+  color: #7F7979;
 }
 
 h1 {
-  color: #98c0c2;
-  
+  color: var(--text-color);
 }

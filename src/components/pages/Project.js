@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
     projectStyle: {
-        // background: '#323031',
+        color: '#7F7979',
 
     }
 };
@@ -10,7 +10,7 @@ const styles = {
 function Project() {
     return (
         <div style={styles.projectStyle} >
-            <h1> Project </h1>
+            <h1> Projects </h1>
         </div>
     )
 }
