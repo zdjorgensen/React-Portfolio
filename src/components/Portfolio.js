@@ -30,8 +30,8 @@ export default function Portfolio() {
 
     return (
         <div>
-            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-            
+            <Header />
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             <Footer />
             {renderPage()}
         </div>
