@@ -22,6 +22,8 @@ a, ul {
   display: flex;
   list-style: none;
   padding: 5px;
+  gap: 30px;
+  font-size: 20px;
   color: var(--text-color);
 }
 
@@ -31,5 +33,17 @@ a:hover {
 
 h1 {
   color: var(--text-color);
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+}
+input {
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  font-size: 14px;
 }
 
