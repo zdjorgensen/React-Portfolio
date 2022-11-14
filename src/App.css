@@ -18,7 +18,7 @@ p {
   color: #323031;
 }
 
-a, ul {
+a {
   display: flex;
   list-style: none;
   padding: 5px;

@@ -24,7 +24,7 @@ const styles = {
 function Project() {
     return (
         <div >
-            <h1 style={styles.h1Style}> Projects </h1>
+            <h1 style={styles.h1Style}> Portfolio </h1>
         <Container>
             <Row style={styles.rowStyle}>
                 <Col md={4}>

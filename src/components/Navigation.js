@@ -10,12 +10,20 @@ const styles = {
         padding: '5px',
         fontSize: '20px',
     },
+    ulStyle: {
+        display: 'flex',
+        listStyle: 'none',
+        padding: '5px',
+        gap: '30px',
+        fontSize: '20px',
+        color: '#adb5bd',
+    }
 };
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
         <nav style={styles.navigationStyle}>
-            <ul>
+            <ul style={styles.ulStyle}>
                 <li>
                     <a href="#about" onClick={() => handlePageChange('About')}
                         className={currentPage === 'About' ? 'link active' : 'link'}
@@ -27,7 +35,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     <a href="#projects" onClick={() => handlePageChange('Projects')}
                         className={currentPage === 'Projects' ? 'link active' : 'link'}
                     >
-                        Projects
+                        Portfolio
                     </a>
                 </li>
                 <li>
