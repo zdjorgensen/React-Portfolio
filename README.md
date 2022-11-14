@@ -4,7 +4,7 @@
 
   [GitHub Application](https://github.com/zdjorgensen/React-Portfolio)
 
-  [GitHub Pages Link]()
+  [GitHub Pages Link](https://zdjorgensen.github.io/React-Portfolio/)
 
   ## Table of Contents
 
