@@ -108,3 +108,5 @@ export default function Contact() {
 
 };
 
+// Logic to get form to work is possibly activity 19 in the 22-State and then
+// its the reducers
