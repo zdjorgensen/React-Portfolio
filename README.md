@@ -2,12 +2,12 @@
 
 # React Porfolio
 
-  [GitHub Application](https://github.com/zdjorgensen/React-Portfolio)
+  [GitHub Repository](https://github.com/zdjorgensen/React-Portfolio)
 
-  [GitHub Pages Link](https://zdjorgensen.github.io/React-Portfolio/)
+  [GitHub Pages](https://zdjorgensen.github.io/React-Portfolio/)
 
   ## Table of Contents
-
+<br>
 <details>
     <summary> Sections </summary>
     <ul>
@@ -15,7 +15,7 @@
         <li> <a href="#contact"> Contact </a> </li>
     </ul>    
 </details>
-
+<br>
 <img src='./src/img/React-portfolio.png' alt='Portfolio about page'>
 
   <hr>
@@ -26,9 +26,10 @@
 
   ## Description
 
-  For challenge 20 `React Portfolio` I created a profession portfolio for myself using ReactJS. I struggled getting the navigation bar with the links to the different pages to work properly but after a while I was able to figure it out with the help of Google and previous class activities. While creating my portfolio I was able to learn about more about React's way of implementing CSS within the file, and I learned about an npm package for React that made it easier to create a grid system for my portfolio page. 
+  Hello and welcome to my GitHub repository for my professional portfolio using React! My portfolio has been deployed on GitHub Pages if you would like to check it out. My porftolio contains a breif about me section, a portfolio section where you can see some of my previous projects, a contact section, and a link to my resume with a list of some of my proficiencies other than React! 
+  
+  If you would like to contact me, the best way to reach out would either be by E-mail or by going to my LinkedIn, and sending me a message! I look forward to hearing from you!
 
-  When my portfolio is initially loaded the user is shown an about me page that has a breif description of who I am, what I currently do, and what some of my goals are for the future. In the navigation bar, if the user clicks on any of the other links, they are taken to a portfolio page with previous challenges I created, a contact page where the user can submit a form, and a resume section with a downloadable version of my resume and some of my proficiencies on front-end and back-end developments. 
   <p align="right">(<a href="#top">Back to Top</a>)</p>
 
   <hr>
@@ -36,9 +37,11 @@
   <div id="contact"></div>
 
   ## Contact
-  GitHub: [zdjorgensen](https://github.com/zdjorgensen)
+  GitHub: [Zdjorgensen](https://github.com/zdjorgensen)
+
+  LinkedIn: [LinkedIn](https://www.linkedin.com/in/zachry-jorgensen/)
   
-  Email: z.d.jorgensen@gmail.com
+  Email: Z.d.jorgensen@gmail.com
 
   <p align="right">(<a href="#top">Back to Top</a>)</p>
 
