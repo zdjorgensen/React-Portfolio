@@ -31,7 +31,7 @@ export default function Resume() {
     return (
         <div>
             <h1 style={styles.h1Style}> Resume </h1>
-            <a href={require("../../img/Resume.pdf")} download style={styles.aStyle}>
+            <a href={require("../../img/Resume - 2023.pdf")} download style={styles.aStyle}>
                 <p> Download my resume </p>
             </a>
             <h2 style={styles.h2Style}> Front-end Proficiencies </h2>

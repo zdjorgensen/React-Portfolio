@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { send } from 'emailjs-com';
 
 const styles = {
     h1Style: {
@@ -6,6 +7,12 @@ const styles = {
         padding: '100px',
         color: '#323031',
         fontSize: '35px'
+    },
+    h2Style: {
+        diplay: 'flex',
+        paddingLeft: '100px',
+        paddingBottom: '25px',
+        color: '#323031',
     },
     formStyle: {
         paddingLeft: '100px',
@@ -36,37 +43,40 @@ const styles = {
 
 export default function Contact() {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+    const [toSend, setToSend] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setName('');
-        setEmail('');
-        setMessage('');
-        return alert("Form submitted");
-    }
+        send(
+            'service_qsabnla',
+            'template_uch54i9',
+            toSend,
+            'jjQVAAmfYMd70t-9e'
+        ).then((response) => {
+            console.log('E-mail was sent!', response.status);
+        }).catch((err) => {
+            console.log('E-mail was not sent!', err);
+        })
+    };
 
     const handleChange = (e) => {
-        let emailRegex = /^([a-z0-9_.-]+)@([\da-z.-]+)\.([a-z.]{2,6})$/
-        const { name, value } = e.target;
-
-        if(name === 'name' ) return setName(value);
-        if(name === 'message' ) return setMessage(value);
-        if(name === 'email') return setEmail(value);
-        //Cannot get emailRegex.test(email) to work        
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
     };
 
     return (
         <div>
             <h1 style={styles.h1Style}> Contact </h1>
-            <form style={styles.formStyle}>
+            <h2 style={styles.h2Style}> Send me an E-Mail! </h2>
+            <form style={styles.formStyle} onSubmit={handleSubmit}>
 
-                <label for="name"> Name: </label>
+                <label for="name"> Name / Company Name: </label>
                 <br></br>
                 <input
-                    value={name}
+                    value={toSend.name}
                     name="name"
                     type="text"
                     onChange={handleChange}
@@ -74,10 +84,10 @@ export default function Contact() {
                 </input>
                 <br></br>
 
-                <label for="email"> Email: </label>
+                <label for="email"> E-Mail: </label>
                 <br></br>
                 <input
-                    value={email}
+                    value={toSend.email}
                     name="email"
                     type="text"
                     onChange={handleChange}
@@ -92,21 +102,19 @@ export default function Contact() {
                     name="message"
                     onChange={handleChange}
                     style={styles.messageTextStyle}
-                    value={message}
+                    value={toSend.message}
                     required >
                 </textarea>
 
                 <button
-                    type="button"
+                    type="submit"
                     style={styles.buttonStyle}
-                    onClick={handleSubmit}>
+                >
                     Submit
                 </button>
+
             </form>
         </div>
     );
 
 };
-
-// Logic to get form to work is possibly activity 19 in the 22-State and then
-// its the reducers
