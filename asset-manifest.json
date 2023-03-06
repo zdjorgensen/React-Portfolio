@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.52aab6d5.css",
-    "main.js": "/React-Portfolio/static/js/main.f986a8a2.js",
+    "main.js": "/React-Portfolio/static/js/main.b8df6735.js",
     "static/media/trail-media.png": "/React-Portfolio/static/media/trail-media.5ef15144fd590edb4579.png",
     "static/media/Project-1-Screenshot.png": "/React-Portfolio/static/media/Project-1-Screenshot.22ad299bfa18d1cfc480.png",
     "static/media/myfitnesszone.png.png": "/React-Portfolio/static/media/myfitnesszone.png.6fee960bc44d5b24cb48.png",
+    "static/media/Resume - 2023.pdf": "/React-Portfolio/static/media/Resume - 2023.7d021ebcdd51a2456d8b.pdf",
     "static/media/Weather-dashboard-screenshot.png": "/React-Portfolio/static/media/Weather-dashboard-screenshot.1f9a1f51357716f7e798.png",
-    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.dcfd9e27f2507b615238.pdf",
     "static/media/NoteTakerHome.png": "/React-Portfolio/static/media/NoteTakerHome.b2cde8cbf7eea391b93f.png",
     "static/media/Just-another-text-editor-screenshot.png": "/React-Portfolio/static/media/Just-another-text-editor-screenshot.bb50854d6466fa261723.png",
     "static/media/recent-photo.jpg": "/React-Portfolio/static/media/recent-photo.bcc736e6e554a785b073.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.52aab6d5.css.map": "/React-Portfolio/static/css/main.52aab6d5.css.map",
-    "main.f986a8a2.js.map": "/React-Portfolio/static/js/main.f986a8a2.js.map"
+    "main.b8df6735.js.map": "/React-Portfolio/static/js/main.b8df6735.js.map"
   },
   "entrypoints": [
     "static/css/main.52aab6d5.css",
-    "static/js/main.f986a8a2.js"
+    "static/js/main.b8df6735.js"
   ]
 }
